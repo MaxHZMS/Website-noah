@@ -1,0 +1,132 @@
+/* Algemene stijlen */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+section {
+    
+    padding: 20px;
+    text-align: center;
+}
+
+#welcome {
+    background-color: #ff6b81;
+    color: white;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#welcome h1 {
+    font-size: 3rem;
+    margin: 0;
+}
+
+#welcome .intro {
+    font-size: 1.5rem;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #ff4b5c;
+    color: white;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #ff2d3c;
+}
+
+#gallery img {
+    width: 100%;
+    max-width: 300px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#gallery .gallery-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+/* Toevoeging van animaties */
+.hidden {
+    display: none;
+}
+
+#playlist audio {
+    margin-top: 20px;
+    width: 100%;
+    max-width: 400px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* Sectie met foto en tekst */
+.phone-photo-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    gap: 30px;
+    background-color: #fff5f3; /* Lichte Valentijns achtergrondkleur */
+    border-radius: 10px;
+    margin: 20px;
+}
+
+.image-container {
+    max-width: 300px;
+}
+
+.phone-image {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.text-container {
+    max-width: 600px;
+    text-align: left;
+    padding: 20px;
+}
+
+.text-container p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #555;
+}
+
+/* Terug knop */
+footer {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.back-button {
+    background-color: #ff6f61;  /* Valentijnsthema kleur */
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.back-button:hover {
+    background-color: #e85d51;
+}
